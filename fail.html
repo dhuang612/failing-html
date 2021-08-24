@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mocha</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dhuang612/mocha@53a85363cd0fc415370ecd0b877c9a40c6adbba1/mocha.min.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="https://cdn.jsdelivr.net/gh/dhuang612/mocha-test-file@master/mocha.min.js"></script>
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script>expect = chai.expect</script>
+    <script src="Array.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
